@@ -206,26 +206,27 @@ body {
 }
 
 .social-btn {
-  text-decoration: none;
-  background: #f1f5f9;
-  padding: 0.4rem 1.1rem;
-  border-radius: 2rem;
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: #2c3e50;
-  transition: all 0.2s;
-  display: inline-flex;
+  width: 55px;
+  height: 55px;
+  display: flex;
   align-items: center;
-  gap: 0.4rem;
-  border: 1px solid #e2e8f0;
+  justify-content: center;
+  background: white;
+  border-radius: 50%;
+  color: #2c7da0;
+  border: 2px solid #dbe6ef;
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: 0.3s;
 }
 
 .social-btn:hover {
-  background: #e6edf4;
-  transform: translateY(-2px);
-  border-color: #cbdbe0;
-  color: #1f6392;
+  background: #2c7da0;
+  color: white;
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(44, 125, 160, 0.25);
 }
+
 .extra-section {
   margin-top: 2.5rem;
   display: flex;
