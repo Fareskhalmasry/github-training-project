@@ -53,7 +53,5 @@ project-folder/
 
 ---
 
-## Student Name
+## Fares Almasry
 
-Updated after branch
-Fares Almasry
